@@ -1,373 +1,309 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
-<Document>
-<name>0322</name>
-<open>1</open>
-<LookAt>
-	<longitude>-95.712888</longitude>
-	<latitude>37.090227</latitude>
-	<range>6085317</range>
-</LookAt>
+	<Document>
+		<name>WorldMap</name>
+		<open>1</open>
+		<LookAt>
+			<longitude>-95.712888</longitude>
+			<latitude>37.090227</latitude>
+			<range>6085317</range>
+		</LookAt>
 
-<StyleMap id="msn_eee">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#sn_eee</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#sh_eee</styleUrl>
-	</Pair>
-</StyleMap>
-<Style id="sh_eee">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>icons\eee.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eee.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>1</scale>
-	</LabelStyle>
-</Style>
-<Style id="sn_eee">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eee.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eee.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>0</scale>
-	</LabelStyle>
-</Style>
+		<StyleMap id="msn_eee">										<!-- creates icon for places eric has been -->
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_eee</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_eee</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_eee">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/fG9FBHb/eee.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/fG9FBHb/eee.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_eee">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/fG9FBHb/eee.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/fG9FBHb/eee.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+		</Style>
 
-<StyleMap id="msn_ae">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#sn_ae</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#sh_ae</styleUrl>
-	</Pair>
-</StyleMap>
-<Style id="sh_ae">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\ae.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\ae.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>1</scale>
-	</LabelStyle>
-</Style>
-<Style id="sn_ae">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\ae.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\ae.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>0</scale>
-	</LabelStyle>
-</Style>
+		<StyleMap id="msn_ae">										<!-- creates icon for places alexis and eric have been -->
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_ae</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_ae</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_ae">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/ZLJ7NFf/ae.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/ZLJ7NFf/ae.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_ae">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/ZLJ7NFf/ae.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/ZLJ7NFf/ae.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+		</Style>
 
-<StyleMap id="msn_eeecamp">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#sn_eeecamp</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#sh_eeecamp</styleUrl>
-	</Pair>
-</StyleMap>
-<Style id="sh_eeecamp">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eeecamp.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eeecamp.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>1</scale>
-	</LabelStyle>
-</Style>
-<Style id="sn_eeecamp">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eeecamp.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eeecamp.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>0</scale>
-	</LabelStyle>
-</Style>
+		<StyleMap id="msn_eeecamp">										<!-- creates icon for places eric has camped -->
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_eeecamp</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_eeecamp</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_eeecamp">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/rbXYhFh/eeecamp.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/rbXYhFh/eeecamp.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_eeecamp">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/rbXYhFh/eeecamp.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/rbXYhFh/eeecamp.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+		</Style>
 
-<StyleMap id="msn_aecamp">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#sn_aecamp</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#sh_aecamp</styleUrl>
-	</Pair>
-</StyleMap>
-<Style id="sh_aecamp">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\aecamp.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\aecamp.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>1</scale>
-	</LabelStyle>
-</Style>
-<Style id="sn_aecamp">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\aecamp.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\aecamp.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>0</scale>
-	</LabelStyle>
-</Style>
+		<StyleMap id="msn_aecamp">										<!-- creates icon for places alexis and eric have camped -->
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_aecamp</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_aecamp</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_aecamp">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/vJq8yfz/aecamp.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/vJq8yfz/aecamp.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_aecamp">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/vJq8yfz/aecamp.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/vJq8yfz/aecamp.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+		</Style>
 
-<StyleMap id="msn_eeetrailhead">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#sn_eeetrailhead</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#sh_eeetrailhead</styleUrl>
-	</Pair>
-</StyleMap>
-<Style id="sh_eeetrailhead">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eeetrailhead.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eeetrailhead.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>1</scale>
-	</LabelStyle>
-</Style>
-<Style id="sn_eeetrailhead">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eeetrailhead.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\eeetrailhead.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>0</scale>
-	</LabelStyle>
-</Style>
+		<StyleMap id="msn_eeetrailhead">										<!-- creates icon for places eric has camped -->
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_eeetrailhead</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_eeetrailhead</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_eeetrailhead">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/rbXYhFh/eeecamp.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/rbXYhFh/eeecamp.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_eeetrailhead">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/rbXYhFh/eeecamp.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/rbXYhFh/eeecamp.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+		</Style>
 
-<StyleMap id="msn_aetrailhead">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#sn_aetrailhead</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#sh_aetrailhead</styleUrl>
-	</Pair>
-</StyleMap>
-<Style id="sh_aetrailhead">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\aetrailhead.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\aetrailhead.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>1</scale>
-	</LabelStyle>
-</Style>
-<Style id="sn_aetrailhead">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\aetrailhead.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\aetrailhead.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>0</scale>
-	</LabelStyle>
-</Style>
+		<StyleMap id="msn_aetrailhead">										<!-- creates icon for trailheads alexis and eric have been to -->
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_aetrailhead</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_aetrailhead</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_aetrailhead">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/tJVHFgr/aetrailhead.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/tJVHFgr/aetrailhead.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_aetrailhead">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/tJVHFgr/aetrailhead.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/tJVHFgr/aetrailhead.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+		</Style>
 
-<StyleMap id="msn_want">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#sn_want</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#sh_want</styleUrl>
-	</Pair>
-</StyleMap>
-<Style id="sh_want">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\want.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\want.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>1</scale>
-	</LabelStyle>
-</Style>
-<Style id="sn_want">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\want.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\want.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>0</scale>
-	</LabelStyle>
-</Style>
+		<StyleMap id="msn_want">										<!-- creates icon for places alexis and eric want to go -->
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_want</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_want</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_want">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/VDggw0Q/want.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/VDggw0Q/want.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_want">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/VDggw0Q/want.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/VDggw0Q/want.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+		</Style>
 
-<StyleMap id="msn_wantcamp">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#sn_wantcamp</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#sh_wantcamp</styleUrl>
-	</Pair>
-</StyleMap>
-<Style id="sh_wantcamp">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\wantcamp.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\wantcamp.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>1</scale>
-	</LabelStyle>
-</Style>
-<Style id="sn_wantcamp">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\wantcamp.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\wantcamp.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>0</scale>
-	</LabelStyle>
-</Style>
+		<StyleMap id="msn_wantcamp">										<!-- creates icon for places alexis and eric want to camp -->
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_wantcamp</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_wantcamp</styleUrl>
+			</Pair>
+		</StyleMap=
+		<Style id="sh_wantcamp">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/Nsk1WtH/wantcamp.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/Nsk1WtH/wantcamp.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_wantcamp">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/Nsk1WtH/wantcamp.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/Nsk1WtH/wantcamp.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+		</Style>
 
 <StyleMap id="msn_wanttrail">
 	<Pair>
