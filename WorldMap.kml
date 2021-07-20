@@ -2,14 +2,15 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
 	<Document>
 		<name>WorldMap</name>
-		<open>1</open>
+		<open>1</open> 																															<!-- list view will be open for main items when opening documents -->
 		<LookAt>
-			<longitude>-95.712888</longitude>
+			<longitude>-95.712888</longitude> 																				<!-- lat/long of view upon when opening document -->
 			<latitude>37.090227</latitude>
-			<range>6085317</range>
+			<range>6085317</range> 																										<!-- range above sea level when opening document -->
 		</LookAt>
 
-																																								<!-- comments included here apply to all of the successive customized icons/stylemaps -->
+															<!-- comments included here apply to all of the successive customized icons/stylemaps -->
+
 		<StyleMap id="msn_eee">																											<!-- places eric has been -->
 			<Pair> 																																		<!-- maps the style for normal style of a placemark -->
 				<key>normal</key>
@@ -33,21 +34,21 @@
 				<scale>1</scale> 																												<!-- resizes the label -->
 			</LabelStyle>
 		</Style>
-		<Style id="sn_eee">
+		<Style id="sn_eee">																													<!-- normal style sheet -->
 			<IconStyle>
-				<scale>1.0</scale>
-				<Icon><href>https://i.ibb.co/fG9FBHb/eee.png</href></Icon>
-				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+				<scale>1.0</scale> 																											<!-- resizes the icon -->
+				<Icon><href>https://i.ibb.co/fG9FBHb/eee.png</href></Icon> 							<!-- link for actual icon file in the main window -->
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/> 									<!-- anchored position of icon to the point assigned in the placemark -->
 			</IconStyle>
-			<ListStyle>
-				<ItemIcon><href>https://i.ibb.co/fG9FBHb/eee.png</href></ItemIcon>
+			<ListStyle>  																															<!-- how the item is displayed in the list view menu -->
+				<ItemIcon><href>https://i.ibb.co/fG9FBHb/eee.png</href></ItemIcon> 			<!-- link for the list icon file -->
 			</ListStyle>
 			<LabelStyle>
-				<scale>0</scale>
+				<scale>0</scale> 																												<!-- resizes the label -->
 			</LabelStyle>
 		</Style>
 
-		<StyleMap id="msn_ae">										<!-- creates icon for places alexis and eric have been -->
+		<StyleMap id="msn_ae">																											<!-- places alexis and eric have been -->
 			<Pair>
 				<key>normal</key>
 				<styleUrl>#sn_ae</styleUrl>
@@ -84,7 +85,7 @@
 			</LabelStyle>
 		</Style>
 
-		<StyleMap id="msn_eeecamp">										<!-- creates icon for places eric has camped -->
+		<StyleMap id="msn_eeecamp">																									<!-- places eric has camped -->
 			<Pair>
 				<key>normal</key>
 				<styleUrl>#sn_eeecamp</styleUrl>
@@ -121,7 +122,7 @@
 			</LabelStyle>
 		</Style>
 
-		<StyleMap id="msn_aecamp">										<!-- creates icon for places alexis and eric have camped -->
+		<StyleMap id="msn_aecamp">																									<!-- places alexis and eric have camped -->
 			<Pair>
 				<key>normal</key>
 				<styleUrl>#sn_aecamp</styleUrl>
@@ -158,7 +159,7 @@
 			</LabelStyle>
 		</Style>
 
-		<StyleMap id="msn_eeetrailhead">										<!-- creates icon for places eric has camped -->
+		<StyleMap id="msn_eeetrailhead">																						<!-- places eric has camped -->
 			<Pair>
 				<key>normal</key>
 				<styleUrl>#sn_eeetrailhead</styleUrl>
@@ -195,7 +196,7 @@
 			</LabelStyle>
 		</Style>
 
-		<StyleMap id="msn_aetrailhead">										<!-- creates icon for trailheads alexis and eric have been to -->
+		<StyleMap id="msn_aetrailhead">																							<!-- trailheads alexis and eric have been to -->
 			<Pair>
 				<key>normal</key>
 				<styleUrl>#sn_aetrailhead</styleUrl>
@@ -232,7 +233,7 @@
 			</LabelStyle>
 		</Style>
 
-		<StyleMap id="msn_want">										<!-- creates icon for places alexis and eric want to go -->
+		<StyleMap id="msn_want">																										<!-- places alexis and eric want to go -->
 			<Pair>
 				<key>normal</key>
 				<styleUrl>#sn_want</styleUrl>
@@ -269,7 +270,7 @@
 			</LabelStyle>
 		</Style>
 
-		<StyleMap id="msn_wantcamp">										<!-- creates icon for places alexis and eric want to camp -->
+		<StyleMap id="msn_wantcamp">																								<!-- places alexis and eric want to camp -->
 			<Pair>
 				<key>normal</key>
 				<styleUrl>#sn_wantcamp</styleUrl>
@@ -278,7 +279,7 @@
 				<key>highlight</key>
 				<styleUrl>#sh_wantcamp</styleUrl>
 			</Pair>
-		</StyleMap=
+		</StyleMap>
 		<Style id="sh_wantcamp">
 			<IconStyle>
 				<scale>1.0</scale>
@@ -306,7 +307,7 @@
 			</LabelStyle>
 		</Style>
 
-		<StyleMap id="msn_wanttrail">										<!-- creates icon for trailheads alexis and eric want to hike -->
+		<StyleMap id="msn_wanttrail">																								<!-- trailheads alexis and eric want to hike -->
 			<Pair>
 				<key>normal</key>
 				<styleUrl>#sn_wanttrail</styleUrl>
@@ -345,277 +346,132 @@
 			</LabelStyle>
 		</Style>
 
-<Style id="trail">
-	<LineStyle>
-		<color>ffff0000</color>
-		<width>5</width>
-	</LineStyle>
-</Style>
+															<!-- comments included here apply to all of the successive customized lines/style ids -->
 
-<Style id="wanttrail">
-	<LineStyle>
-		<color>bf00ffff</color>
-		<width>5</width>
-	</LineStyle>
-</Style>
+		<Style id="trail">																													<!-- trails alexis and eric have hiked -->
+			<LineStyle>
+				<color>ffff0000</color> 																								<!-- color of gps trail -->
+				<width>5</width> 																												<!-- width of gps trail -->
+			</LineStyle>
+		</Style>
 
-<Style id="longtrail">
-	<LineStyle>
-		<color>ff000000</color>
-		<width>2</width>
-	</LineStyle>
-</Style>
+		<Style id="wanttrail">																											<!-- trails alexisa nd eric want to hike -->
+			<LineStyle>
+				<color>bf00ffff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
 
-<Style id="roadtrip">
-	<LineStyle>
-		<color>"white"</color>
-		<width>5</width>
-	</LineStyle>
-</Style>
+		<Style id="longtrail">																											<!-- long haul trails that span hundreds of miles, used as markers or waypoints -->
+			<LineStyle>
+				<color>ff000000</color>
+				<width>2</width>
+			</LineStyle>
+		</Style>
 
-<Style id="wantroadtrip">
-	<LineStyle>
-		<color>ff0000ff</color>
-		<width>5</width>
-	</LineStyle>
-</Style>
+		<Style id="roadtrip">																												<!-- long road trips -->
+			<LineStyle>
+				<color>"white"</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
 
-<Style id="boundary">
-	<LineStyle>
-		<color>ff00a838</color>
-		<width>5</width>
-	</LineStyle>
-</Style>
+		<Style id="wantroadtrip">																										<!-- long road trips that we want to take -->
+			<LineStyle>
+				<color>ff0000ff</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
 
+		<Style id="boundary">																												<!-- boundaries for National Parks, BLM areas, etc -->
+			<LineStyle>
+				<color>ff00a838</color>
+				<width>5</width>
+			</LineStyle>
+		</Style>
 
+															<!-- these are sample placemarks that can be used as a basic format for actual placemarks in the document -->
+															<!-- comments will more or less apply to all actual placemarks in the document -->
 
-<!-- These are the sample Placemarks to use in the document -->
+    <Folder><name>Sample Folder</name>
+			<open>0</open> 																														<!-- folder will be closed upon opening the document -->
+			<LookAt>
+				<longitude>-106.004000</longitude> 																			<!-- long/lat of sample placemarks -->
+				<latitude>32.812990</latitude>
+				<range>1250</range> 																										<!-- range above sea level of sample placemarks -->
+			</LookAt>
 
-<Folder><name>Sample Folder</name>
-	<open>0</open>
-	<LookAt>
-		<longitude>-106.004000</longitude>
-		<latitude>32.812990</latitude>
-		<range>1250</range>
-	</LookAt>
+															<!-- example placemark with comment of what each item means -->
 
-<Placemark><name>EEE Placemark Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/WorldMap/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-		<br>This is an example of where text can go.</br>
-	</description>
-	<styleUrl>#msn_eee</styleUrl>
-	<Point>
-		<coordinates>-106.000000,32.815990,0</coordinates>
-	</Point>
-</Placemark>
+			<Placemark><name>Placemark Example with comments</name> 																<!-- name of placemark -->
+				<visibility>0</visibility> 																							<!-- placemark is NOT visible when opening document -->
+				<Snippet maxLines="0">empty</Snippet> 																	<!-- stops a snippet or description being shown in the list view -->
+				<description>
+					<![CDATA[<img style="max-width:1500px;" src="hyperlink">]]> 					<!-- image shown when clicking on placemark -->
+					<![CDATA[http://www.google.com]]> 																		<!-- provides a link to information about the placemark -->
+					<br>This is an example of where text can go.</br> 										<!-- adds comment or description when clicking on placemark -->
+				</description>
+				<styleUrl>#msn_eee</styleUrl> 																					<!-- which stylemap is used -->
+				<Point>
+					<coordinates>-106.000000,32.815990,0</coordinates> 										<!-- coordinates that placemark should be at -->
+				</Point>
+			</Placemark>
 
-<Placemark><name>Alexis and Eric Placemark Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-		<br>This is an example of where text can go.</br>
-	</description>
-	<styleUrl>#msn_ae</styleUrl>
-	<Point>
-		<coordinates>-106.001000,32.815990,0</coordinates>
-	</Point>
-</Placemark>
+															<!-- example placemark that can be copied/pasted with pertinent info changes as needed
 
-<Placemark><name>EEE Campsite Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/WorldMap/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-		<br>This is an example of where text can go.</br>
-	</description>
-	<styleUrl>#msn_eeecamp</styleUrl>
-	<Point>
-		<coordinates>-106.002000,32.815990,0</coordinates>
-	</Point>
-</Placemark>
+			<Placemark><name>Placemark example that can be copied</name>
+				<visibility>1</visibility>
+				<Snippet maxLines="0">empty</Snippet>
+				<description>
+					<![CDATA[<img style="max-width:1500px;" src="hyperlink">]]>
+					<![CDATA[http://www.google.com]]>
+					<br>This is an example of where text can go.</br>
+				</description>
+				<styleUrl>#msn_ae</styleUrl>
+				<Point>
+					<coordinates>-106.001000,32.815990,0</coordinates>
+				</Point>
+			</Placemark>
 
-<Placemark><name>AE Campsite Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/WorldMap/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-		<br>This is an example of where text can go.</br>
-	</description>
-	<styleUrl>#msn_aecamp</styleUrl>
-	<Point>
-		<coordinates>-106.003000,32.815990,0</coordinates>
-	</Point>
-</Placemark>
+															-->
 
-<Placemark><name>EEE Trailhead Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/WorldMap/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-		<br>This is an example of where text can go.</br>
-	</description>
-	<styleUrl>#msn_eeetrailhead</styleUrl>
-	<Point>
-		<coordinates>-106.004000,32.815990,0</coordinates>
-	</Point>
-</Placemark>
+															<!-- example trail/line with comment of what each item means -->
 
-<Placemark><name>AE Trailhead Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/WorldMap/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-		<br>This is an example of where text can go.</br>
-	</description>
-	<styleUrl>#msn_aetrailhead</styleUrl>
-	<Point>
-		<coordinates>-106.005000,32.815990,0</coordinates>
-	</Point>
-</Placemark>
+			<Placemark><name>Trail Example with comments</name> 								<!-- name of trail -->
+				<visibility>0</visibility> 																							<!-- not visible when opening document -->
+				<Snippet maxLines="0">empty</Snippet> 																	<!-- no description visible in list view -->
+				<description>
+					<![CDATA[<img style="max-width:1500px;" src="hyperlink">]]>          	<!-- link to image when clicking on trail -->
+					<![CDATA[http://www.google.com]]> 																		<!-- link to website when clicking on trail -->
+				</description>
+				<styleUrl>#trail</styleUrl>                                             <!-- style used for the line/trail -->
+				<LineString>
+					<tessellate>1</tessellate> 																						<!-- allows trail to follow terrain/curvature of earth -->
+					<altitudeMode>clampToGround</altitudeMode> 														<!-- ignores altitude values and sticks trail to elevation -->
+					<coordinates>-106.008,32.814990,0 -106.000,32.81499,0</coordinates> 	<!-- long/lat/alt pairs of coordinates that trail follows -->
+				</LineString>
+			</Placemark>
 
-<Placemark><name>Want to Go Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/WorldMap/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-		<br>This is an example of where text can go.</br>
-	</description>
-	<styleUrl>#msn_want</styleUrl>
-	<Point>
-		<coordinates>-106.006000,32.815990,0</coordinates>
-	</Point>
-</Placemark>
+														<!-- example trail that can be copied/pasted with pertinent info changes as needed
 
-<Placemark><name>Want to Camp Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/WorldMap/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-		<br>This is an example of where text can go.</br>
-	</description>
-	<styleUrl>#msn_wantcamp</styleUrl>
-	<Point>
-		<coordinates>-106.007000,32.815990,0</coordinates>
-	</Point>
-</Placemark>
+			<Placemark><name>Trail Example that can be copied</name>
+				<visibility>0</visibility>
+				<Snippet maxLines="0">empty</Snippet>
+				<description>
+					<![CDATA[<img style="max-width:1500px;" src="hyperlink">]]>
+					<![CDATA[http://www.google.com]]>
+				</description>
+				<styleUrl>#wanttrail</styleUrl>
+				<LineString>
+					<tessellate>1</tessellate>
+					<altitudeMode>clampToGround</altitudeMode>
+					<coordinates>-106.008000,32.813990,0 -106.000000,32.813990,0</coordinates>
+				</LineString>
+			</Placemark>
 
-<Placemark><name>Want Trailhead Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/WorldMap/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-		<br>This is an example of where text can go.</br>
-	</description>
-	<styleUrl>#msn_wanttrail</styleUrl>
-	<Point>
-		<coordinates>-106.008000,32.815990,0</coordinates>
-	</Point>
-</Placemark>
+															-->
 
-<Placemark><name>Hiked Trail Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-	</description>
-	<styleUrl>#trail</styleUrl>
-	<LineString>
-		<tessellate>1</tessellate>
-		<altitudeMode>clampToGround</altitudeMode>
-		<coordinates>-106.008000,32.814990,0 -106.000000,32.814990,0</coordinates>
-	</LineString>
-</Placemark>
-
-<Placemark><name>Want to Hike Trail Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-	</description>
-	<styleUrl>#wanttrail</styleUrl>
-	<LineString>
-		<tessellate>1</tessellate>
-		<altitudeMode>clampToGround</altitudeMode>
-		<coordinates>-106.008000,32.813990,0 -106.000000,32.813990,0</coordinates>
-	</LineString>
-</Placemark>
-
-<Placemark><name>Long Distance Trail Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-	</description>
-	<styleUrl>#longtrail</styleUrl>
-	<LineString>
-		<tessellate>1</tessellate>
-		<altitudeMode>clampToGround</altitudeMode>
-		<coordinates>-106.008000,32.811990,0 -106.000000,32.811990,0</coordinates>
-	</LineString>
-</Placemark>
-
-<Placemark><name>Road Trip Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-	</description>
-	<styleUrl>#roadtrip</styleUrl>
-	<LineString>
-		<tessellate>1</tessellate>
-		<altitudeMode>clampToGround</altitudeMode>
-		<coordinates>-106.008000,32.810990,0 -106.000000,32.810990,0</coordinates>
-	</LineString>
-</Placemark>
-
-<Placemark><name>Want to Road Trip Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-	</description>
-	<styleUrl>#wantroadtrip</styleUrl>
-	<LineString>
-		<tessellate>1</tessellate>
-		<altitudeMode>clampToGround</altitudeMode>
-		<coordinates>-106.008000,32.812990,0 -106.000000,32.812990,0</coordinates>
-	</LineString>
-</Placemark>
-
-<Placemark><name>Boundary Example</name>
-	<visibility>0</visibility>
-	<Snippet maxLines="0">empty</Snippet>
-	<description>
-		<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-		<![CDATA[http://www.google.com]]>
-	</description>
-	<styleUrl>#boundary</styleUrl>
-	<LineString>
-		<tessellate>1</tessellate>
-		<altitudeMode>clampToGround</altitudeMode>
-		<coordinates>-106.008000,32.809990,250 -106.000000,32.809990,250</coordinates>
-	</LineString>
-</Placemark>
-
-</Folder>
+		</Folder>
 
 <!-- End of the sample Placemarks to use in the document -->
 
