@@ -9,27 +9,28 @@
 			<range>6085317</range>
 		</LookAt>
 
-		<StyleMap id="msn_eee">										<!-- creates icon for places eric has been -->
-			<Pair>
+																																								<!-- comments included here apply to all of the successive customized icons/stylemaps -->
+		<StyleMap id="msn_eee">																											<!-- places eric has been -->
+			<Pair> 																																		<!-- maps the style for normal style of a placemark -->
 				<key>normal</key>
 				<styleUrl>#sn_eee</styleUrl>
 			</Pair>
 			<Pair>
-				<key>highlight</key>
+				<key>highlight</key> 																										<!-- maps the style for highlighted style of a placemark -->
 				<styleUrl>#sh_eee</styleUrl>
 			</Pair>
 		</StyleMap>
-		<Style id="sh_eee">
+		<Style id="sh_eee">																													<!-- highlighted style sheet -->
 			<IconStyle>
-				<scale>1.0</scale>
-				<Icon><href>https://i.ibb.co/fG9FBHb/eee.png</href></Icon>
-				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+				<scale>1.0</scale> 																											<!-- resizes the icon -->
+				<Icon><href>https://i.ibb.co/fG9FBHb/eee.png</href></Icon> 							<!-- link for actual icon file in the main window -->
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/> 									<!-- anchored position of icon to the point assigned in the placemark -->
 			</IconStyle>
-			<ListStyle>
-				<ItemIcon><href>https://i.ibb.co/fG9FBHb/eee.png</href></ItemIcon>
+			<ListStyle>  																															<!-- how the item is displayed in the list view menu -->
+				<ItemIcon><href>https://i.ibb.co/fG9FBHb/eee.png</href></ItemIcon> 			<!-- link for the list icon file -->
 			</ListStyle>
 			<LabelStyle>
-				<scale>1</scale>
+				<scale>1</scale> 																												<!-- resizes the label -->
 			</LabelStyle>
 		</Style>
 		<Style id="sn_eee">
@@ -305,50 +306,44 @@
 			</LabelStyle>
 		</Style>
 
-<StyleMap id="msn_wanttrail">
-	<Pair>
-		<key>normal</key>
-		<styleUrl>#sn_wanttrail</styleUrl>
-	</Pair>
-	<Pair>
-		<key>highlight</key>
-		<styleUrl>#sh_wanttrail</styleUrl>
-	</Pair>
-</StyleMap>
-<Style id="sh_wanttrail">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\wanttrail.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\wanttrail.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>1</scale>
-	</LabelStyle>
-</Style>
-<Style id="sn_wanttrail">
-	<IconStyle>
-		<scale>1.0</scale>
-		<Icon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\wanttrail.png</href>
-		</Icon>
-		<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
-	</IconStyle>
-	<ListStyle>
-		<ItemIcon>
-			<href>C:\Users\El Errante\Desktop\WorldMap\icons\wanttrail.png</href>
-		</ItemIcon>
-	</ListStyle>
-	<LabelStyle>
-		<scale>0</scale>
-	</LabelStyle>
-</Style>
+		<StyleMap id="msn_wanttrail">										<!-- creates icon for trailheads alexis and eric want to hike -->
+			<Pair>
+				<key>normal</key>
+				<styleUrl>#sn_wanttrail</styleUrl>
+			</Pair>
+			<Pair>
+				<key>highlight</key>
+				<styleUrl>#sh_wanttrail</styleUrl>
+			</Pair>
+		</StyleMap>
+		<Style id="sh_wanttrail">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/h228ZGk/wanttrail.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon><href>https://i.ibb.co/h228ZGk/wanttrail.png</href></ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>1</scale>
+			</LabelStyle>
+		</Style>
+		<Style id="sn_wanttrail">
+			<IconStyle>
+				<scale>1.0</scale>
+				<Icon><href>https://i.ibb.co/h228ZGk/wanttrail.png</href></Icon>
+				<hotSpot x="1" y="1" xunits="pixels" yunits="pixels"/>
+			</IconStyle>
+			<ListStyle>
+				<ItemIcon>
+					<href>https://i.ibb.co/h228ZGk/wanttrail.png</href>
+				</ItemIcon>
+			</ListStyle>
+			<LabelStyle>
+				<scale>0</scale>
+			</LabelStyle>
+		</Style>
 
 <Style id="trail">
 	<LineStyle>
