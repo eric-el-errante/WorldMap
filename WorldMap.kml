@@ -473,180 +473,175 @@
 
 		</Folder>
 
-<!-- End of the sample Placemarks to use in the document -->
+															<!-- End of the sample Placemarks to use in the document -->
 
+		<Folder><name>Israel</name>
+			<open>0</open>
+			<LookAt>
+				<longitude>35.676102</longitude>
+				<latitude>31.336031</latitude>
+				<range>709734</range>
+			</LookAt>
 
+			<Folder><name>Bethlehem</name>
+				<open>0</open>
+				<LookAt>
+					<longitude>35.202469</longitude>
+					<latitude>31.705516</latitude>
+					<range>8393</range>
+				</LookAt>
 
-<Folder><name>Israel</name>
-	<open>0</open>
-	<LookAt>
-		<longitude>35.676102</longitude>
-		<latitude>31.336031</latitude>
-		<range>709734</range>
-	</LookAt>
+				<Placemark><name>Bethlehem Souvenir Center Co.</name>
+					<visibility>1</visibility>
+					<Snippet maxLines="0">empty</Snippet>
+					<description>
+						<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/BfkXX7c/bethlehem-souvenir-center-co.jpg">]]>
+						<![CDATA[https://bethlehemsouvenir.com/]]>
+					</description>
+					<styleUrl>#msn_ae</styleUrl>
+					<Point>
+						<coordinates>35.203389,31.721799,0</coordinates>
+					</Point>
+				</Placemark>
 
-	<Folder><name>Bethlehem</name>
-		<open>0</open>
-		<LookAt>
-			<longitude>35.202469</longitude>
-			<latitude>31.705516</latitude>
-			<range>8393</range>
-		</LookAt>
+				<Placemark><name>Church of the Nativity</name>
+					<visibility>1</visibility>
+					<Snippet maxLines="0">empty</Snippet>
+					<description>
+						<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/TgwNPM9/church-of-the-nativity.jpg">]]>
+						<![CDATA[https://en.wikipedia.org/wiki/Church_of_the_Nativity]]>
+					</description>
+					<styleUrl>#msn_eee</styleUrl>
+					<Point>
+						<coordinates>35.207529,31.704303,0</coordinates>
+					</Point>
+				</Placemark>
 
-		<Placemark><name>Bethlehem Souvenir Center Co.</name>
-			<visibility>1</visibility>
-			<Snippet maxLines="0">empty</Snippet>
-			<description>
-				<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-				<![CDATA[http://www.google.com]]>
-			</description>
-			<styleUrl>#msn_ae</styleUrl>
-			<Point>
-				<coordinates>35.203389,31.721799,0</coordinates>
-			</Point>
-		</Placemark>
+				<Placemark><name>Rachel's Tomb</name>
+					<visibility>1</visibility>
+					<Snippet maxLines="0">empty</Snippet>
+					<description>
+						<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/L62d3jy/rachels-tomb.jpg">]]>
+						<![CDATA[https://en.wikipedia.org/wiki/Rachel%27s_Tomb]]>
+					</description>
+					<styleUrl>#msn_eee</styleUrl>
+					<Point>
+						<coordinates>35.202004,31.719308,0</coordinates>
+					</Point>
+				</Placemark>
 
-		<Placemark><name>Church of the Nativity</name>
-			<visibility>1</visibility>
-			<Snippet maxLines="0">empty</Snippet>
-			<description>
-				<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-				<![CDATA[http://www.google.com]]>
-			</description>
-			<styleUrl>#msn_ae</styleUrl>
-			<Point>
-				<coordinates>35.207529,31.704303,0</coordinates>
-			</Point>
-		</Placemark>
+				<Placemark><name>Shepherd's Field Church</name>
+					<visibility>1</visibility>
+					<Snippet maxLines="0">empty</Snippet>
+					<description>
+						<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/yQ6GJJ9/shepherds-field-church.jpg">]]>
+						<![CDATA[https://en.wikipedia.org/wiki/Chapel_of_the_Shepherd%27s_Field]]>
+					</description>
+					<styleUrl>#msn_eee</styleUrl>
+					<Point>
+						<coordinates>35.230038,31.707367,0</coordinates>
+					</Point>
+				</Placemark>
 
-		<Placemark><name>Rachel's Tomb</name>
-			<visibility>1</visibility>
-			<Snippet maxLines="0">empty</Snippet>
-			<description>
-				<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-				<![CDATA[http://www.google.com]]>
-			</description>
-			<styleUrl>#msn_eee</styleUrl>
-			<Point>
-				<coordinates>35.202004,31.719308,0</coordinates>
-			</Point>
-		</Placemark>
+			</Folder>
 
-		<Placemark><name>Shepherd's Field Church</name>
-			<visibility>1</visibility>
-			<Snippet maxLines="0">empty</Snippet>
-			<description>
-				<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-				<![CDATA[http://www.google.com]]>
-			</description>
-			<styleUrl>#msn_eee</styleUrl>
-			<Point>
-				<coordinates>35.230038,31.707367,0</coordinates>
-			</Point>
-		</Placemark>
+			<Folder><name>Capernaum</name>
+				<open>0</open>
+				<LookAt>
+					<longitude>35.564315</longitude>
+					<latitude>32.880981</latitude>
+					<range>9157</range>
+				</LookAt>
 
-	</Folder>
+				<Placemark><name>Church of the Promise of the Eucharist</name>
+					<visibility>1</visibility>
+					<Snippet maxLines="0">empty</Snippet>
+					<description>
+						<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/x2xHzRv/church-of-the-promise-of-the-eucharist.jpg">]]>
+					</description>
+					<styleUrl>#msn_ae</styleUrl>
+					<Point>
+						<coordinates>35.575435,32.881019,0</coordinates>
+					</Point>
+				</Placemark>
 
-	<Folder><name>Capernaum</name>
-		<open>0</open>
-		<LookAt>
-			<longitude>35.564315</longitude>
-			<latitude>32.880981</latitude>
-			<range>9157</range>
-		</LookAt>
+				<Placemark><name>Church of the Primacy of Saint Peter</name>
+					<visibility>1</visibility>
+					<Snippet maxLines="0">empty</Snippet>
+					<description>
+						<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/T1c4GPp/church-of-the-primacy-of-saint-peter.jpg">]]>
+						<![CDATA[https://en.wikipedia.org/wiki/Church_of_the_Primacy_of_Saint_Peter]]>
+						<br>This is an example of where text can go.</br>
+					</description>
+					<styleUrl>#msn_eee</styleUrl>
+					<Point>
+						<coordinates>35.550444,32.871868,0</coordinates>
+					</Point>
+				</Placemark>
 
-		<Placemark><name>Church of the Promise of the Eucharist</name>
-			<visibility>1</visibility>
-			<Snippet maxLines="0">empty</Snippet>
-			<description>
-				<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/WorldMap/images/israel/eucharist.jpg">]]>
-				<br>This is an example of where text can go.</br>
-			</description>
-			<styleUrl>#msn_ae</styleUrl>
-			<Point>
-				<coordinates>35.575435,32.881019,0</coordinates>
-			</Point>
-		</Placemark>
+				<Placemark><name>Mount of Beatitudes</name>
+					<visibility>1</visibility>
+					<Snippet maxLines="0">empty</Snippet>
+					<description>
+						<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/44F8Y93/mount-of-beatitudes.jpg">]]>
+						<![CDATA[https://en.wikipedia.org/wiki/Mount_of_Beatitudes]]>
+					</description>
+					<styleUrl>#msn_ae</styleUrl>
+					<Point>
+						<coordinates>35.556944,32.887500,0</coordinates>
+					</Point>
+				</Placemark>
 
-		<Placemark><name>Church of the Primacy of Saint Peter</name>
-			<visibility>1</visibility>
-			<Snippet maxLines="0">empty</Snippet>
-			<description>
-				<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-				<![CDATA[http://www.google.com]]>
-				<br>This is an example of where text can go.</br>
-			</description>
-			<styleUrl>#msn_eee</styleUrl>
-			<Point>
-				<coordinates>35.550444,32.871868,0</coordinates>
-			</Point>
-		</Placemark>
+				<Placemark><name>Tabgha Church of the Loaves and Fish</name>
+					<visibility>1</visibility>
+					<Snippet maxLines="0">empty</Snippet>
+					<description>
+						<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/30XXx7D/tabgha-church-of-the-loaves-and-fish.jpg">]]>
+						<![CDATA[https://en.wikipedia.org/wiki/Church_of_the_Multiplication]]>
+					</description>
+					<styleUrl>#msn_eee</styleUrl>
+					<Point>
+						<coordinates>35.549132,32.873506,0</coordinates>
+					</Point>
+				</Placemark>
 
-		<Placemark><name>Tabgha Church of the Loaves and Fish</name>
-			<visibility>1</visibility>
-			<Snippet maxLines="0">empty</Snippet>
-			<description>
-				<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-				<![CDATA[http://www.google.com]]>
-				<br>This is an example of where text can go.</br>
-			</description>
-			<styleUrl>#msn_eee</styleUrl>
-			<Point>
-				<coordinates>35.549132,32.873506,0</coordinates>
-			</Point>
-		</Placemark>
+			</Folder>
 
-		<Placemark><name>Mount of Beatitudes</name>
-			<visibility>1</visibility>
-			<Snippet maxLines="0">empty</Snippet>
-			<description>
-				<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/WorldMap/images/israel/beatitudes.jpg">]]>
-				<![CDATA[https://en.wikipedia.org/wiki/Mount_of_Beatitudes]]>
-				<br>2019.03</br>
-			</description>
-			<styleUrl>#msn_ae</styleUrl>
-			<Point>
-				<coordinates>35.556944,32.887500,0</coordinates>
-			</Point>
-		</Placemark>
+			<Folder><name>Ein Bokek</name>
+				<open>0</open>
+				<LookAt>
+					<longitude>35.362522</longitude>
+					<latitude>31.200156</latitude>
+					<range>3583</range>
+				</LookAt>
 
-	</Folder>
+				<Placemark><name>David Dead Sea Resort and Spa</name>
+					<visibility>1</visibility>
+					<Snippet maxLines="0">empty</Snippet>
+					<description>
+						<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/3YLKZYK/david-dead-sea-resort-and-spa.jpg">]]>
+						<![CDATA[https://www.grandhotels-israel.com/david-dead-sea-hotel]]>
+					</description>
+					<styleUrl>#msn_ae</styleUrl>
+					<Point>
+						<coordinates>35.361406,31.202574,0</coordinates>
+					</Point>
+				</Placemark>
 
-	<Folder><name>Ein Bokek</name>
-		<open>0</open>
-		<LookAt>
-			<longitude>35.362522</longitude>
-			<latitude>31.200156</latitude>
-			<range>3583</range>
-		</LookAt>
+				<Placemark><name>Dead Sea</name>
+					<visibility>1</visibility>
+					<Snippet maxLines="0">empty</Snippet>
+					<description>
+						<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/h9qWjzD/OLYMPUS-DIGITAL-CAMERA.jpg">]]>
+						<![CDATA[https://en.wikipedia.org/wiki/Dead_Sea]]>
+					</description>
+					<styleUrl>#msn_ae</styleUrl>
+					<Point>
+						<coordinates>35.363787,31.203773,0</coordinates>
+					</Point>
+				</Placemark>
 
-		<Placemark><name>David Dead Sea Resort and Spa</name>
-			<visibility>1</visibility>
-			<Snippet maxLines="0">empty</Snippet>
-			<description>
-				<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-				<![CDATA[http://www.google.com]]>
-			</description>
-			<styleUrl>#msn_ae</styleUrl>
-			<Point>
-				<coordinates>35.361406,31.202574,0</coordinates>
-			</Point>
-		</Placemark>
-
-		<Placemark><name>Dead Sea</name>
-			<visibility>1</visibility>
-			<Snippet maxLines="0">empty</Snippet>
-			<description>
-				<![CDATA[<img style="max-width:1500px;" src="file:///C:/Users/El Errante/Desktop/0322/images/sample.png">]]>
-				<![CDATA[http://www.google.com]]>
-			</description>
-			<styleUrl>#msn_ae</styleUrl>
-			<Point>
-				<coordinates>35.363787,31.203773,0</coordinates>
-			</Point>
-		</Placemark>
-
-	</Folder>
+			</Folder>
 
 	<Folder><name>Jerusalem</name>
 		<open>0</open>
