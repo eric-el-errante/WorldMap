@@ -475,6 +475,43 @@
 
 															<!-- End of the sample Placemarks to use in the document -->
 
+	  <Folder><name>Argentina</name>
+			<open>0</open>
+			<LookAt>
+				<longitude>-63.616673</longitude>
+				<latitude>-038.416099</longitude>
+				<range>3329249</range>
+			</LookAt>
+
+			<Placemark><name>Iguazu Falls</name>
+				<visibility>1</visibility>
+				<Snippet maxLines="0">empty</Snippet>
+				<description>
+					<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/17pLF87/iguazu-falls.jpg">]]>
+					<![CDATA[http://whc.unesco.org/en/list/303]]>
+				</description>
+				<styleUrl>#msn_want</styleUrl>
+				<Point>
+					<coordinates>-106.001000,32.815990,0</coordinates>
+				</Point>
+			</Placemark>
+
+			<Placemark><name>Perito Moreno Glacier</name>
+				<visibility>1</visibility>
+				<Snippet maxLines="0">empty</Snippet>
+				<description>
+					<![CDATA[<img style="max-width:1500px;" src="https://i.ibb.co/DQtJPSV/perito-moreno-glacier.jpg">]]>
+					<![CDATA[https://en.wikipedia.org/wiki/Perito_Moreno_Glacier]]>
+				</description>
+				<styleUrl>#msn_want</styleUrl>
+				<Point>
+					<coordinates>-106.001000,32.815990,0</coordinates>
+				</Point>
+			</Placemark>
+
+		</Folder>
+
+
 		<Folder><name>Israel</name>
 			<open>0</open>
 			<LookAt>
